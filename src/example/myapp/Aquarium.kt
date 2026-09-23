@@ -1,6 +1,6 @@
 package example.myapp
 
-class Aquarium {
+class Aquarium(length: Int = 100, width: Int = 20, height: Int = 40) {
     var width: Int = 20
     var height: Int = 40
     var length: Int = 100
