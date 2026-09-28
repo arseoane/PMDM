@@ -21,3 +21,7 @@ class Shark: FishAction, FishColor {
         println("hunt and eat fish")
     }
 }
+
+object GoldColor : FishColor {
+    override val color = "gold"
+}
